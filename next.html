@@ -88,33 +88,33 @@
                 <div class="col s2">
                     <h5 class="white-text">_ </h5>
                     <ul>
-                        <li><a href="index1.html" class="grey-text text-lighten-3">Decimal - Binary</a></li>
-                        <li><a href="index1.html" class="grey-text text-lighten-3">Decimal - Octal</a></li>
-                        <li><a href="index1.html" class="grey-text text-lighten-3">Decimal - Hexadec</a></li>
+                        <li><a href="index.html" class="grey-text text-lighten-3">Decimal - Binary</a></li>
+                        <li><a href="index.html" class="grey-text text-lighten-3">Decimal - Octal</a></li>
+                        <li><a href="index.html" class="grey-text text-lighten-3">Decimal - Hexadec</a></li>
                     </ul>
                 </div>
                 <div class="col s2">
                     <h5 class="white-text">_</h5>
                     <ul>
-                        <li><a href="index1.html" class="grey-text text-lighten-3">Binary - Decimal</a></li>
-                        <li><a href="index2.html" class="grey-text text-lighten-3">Binary - Octal</a></li>
-                        <li><a href="index2.html" class="grey-text text-lighten-3">Binary - Hexadec</a></li>
+                        <li><a href="index.html" class="grey-text text-lighten-3">Binary - Decimal</a></li>
+                        <li><a href="next.html" class="grey-text text-lighten-3">Binary - Octal</a></li>
+                        <li><a href="next.html" class="grey-text text-lighten-3">Binary - Hexadec</a></li>
                     </ul>
                 </div>
                 <div class="col s2">
                     <h5 class="white-text">_</h5>
                     <ul>
-                        <li><a href="index2.html" class="grey-text text-lighten-3">Octal - Binary</a></li>
-                        <li><a href="index1.html" class="grey-text text-lighten-3">Octal - Decimal</a></li>
-                        <li><a href="index2.html" class="grey-text text-lighten-3">Octal - Hexadec</a></li>
+                        <li><a href="next.html" class="grey-text text-lighten-3">Octal - Binary</a></li>
+                        <li><a href="index.html" class="grey-text text-lighten-3">Octal - Decimal</a></li>
+                        <li><a href="next.html" class="grey-text text-lighten-3">Octal - Hexadec</a></li>
                     </ul>
                 </div>
                 <div class="col s2">
                     <h5 class="white-text">_</h5>
                     <ul>
-                        <li><a href="index2.html" class="grey-text text-lighten-3">Hexadec - Binary</a></li>
-                        <li><a href="index1.html" class="grey-text text-lighten-3">Hexadec - Decimal</a></li>
-                        <li><a href="index2.html" class="grey-text text-lighten-3">Hexadec - Octal</a></li>
+                        <li><a href="next.html" class="grey-text text-lighten-3">Hexadec - Binary</a></li>
+                        <li><a href="index.html" class="grey-text text-lighten-3">Hexadec - Decimal</a></li>
+                        <li><a href="next.html" class="grey-text text-lighten-3">Hexadec - Octal</a></li>
                     </ul>
                 </div>
             </div>
@@ -128,22 +128,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="process.js">
-        function dec2oct() {
-            var x = document.getElementById("deci").value;
-            if ((/[^0-9]/g.test(x)) || x == "") {
-                alert("You must enter an integer decimal number!");
-                document.getElementById("deci").value = "";
-                document.getElementById("deci").focus();
-                return false;
-            }
-            x = parseInt(x);
-            var bin = x.toString(2);
-            var binary = bin;
-            document.getElementById("result").innerHTML = binary;
-        }
-        var octal = x.toString(8);
-    </script>
+    <script type="text/javascript" src="process.js"></script>
 </body>
 
 </html>
